@@ -4,7 +4,7 @@ import {
     Footer
 } from '../components';
 import { 
-    Cover,
+    Home,
     About,
     Skills,
     Work,
@@ -15,7 +15,7 @@ export default function(){
     return(
         <React.Fragment>
             <Header />
-            <Cover />
+            <Home />
             <About />
             <Skills />
             <Work />
