@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home(props){
     return(
-        <section className='home'>
+        <section className='home' id='home'>
             <div className='container'>
                 <h1 className='enter'>Hello, my name is</h1>
                 <h2 className='title'>Fahmi Salman.</h2>
