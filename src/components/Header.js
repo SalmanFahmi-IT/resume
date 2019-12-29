@@ -1,21 +1,39 @@
 import React from "react";
 import { Link } from 'gatsby';
 
-export default () => (
+export default function Header() {
+    const [active, setActive] = React.useState(false);
+    const toggle = () => {
+        setActive(!active);
+    };
+    const activeClass = active ? 'active-menu' : '';
+    return(
     <header>
-        <div className='container'>
-            <nav className="navbar">
-                <Link to="https://freecodecamp.org">
-                <img src="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg" alt="freeCodeCamp logo" />
-                </Link>
+            <Link to="/">
+                <img src="/logo-sf.png" width='58px' alt="freeCodeCamp logo" />
+            </Link>
+            {/* <nav className="navbar">
                 <ul className="nav-links">
-                    <li className="nav-item"><Link to="#">Home</Link></li>
-                    <li className="nav-item"><Link to="#">About</Link></li>
-                    <li className="nav-item"><Link to="#">Skills</Link></li>
-                    <li className="nav-item"><Link to="#">Work</Link></li>
-                    <li className="nav-item"><Link to="#">Contact</Link></li>
+                    <li className="nav-item"><Link to="#about">About</Link></li>
+                    <li className="nav-item"><Link to="#skills">Skills</Link></li>
+                    <li className="nav-item"><Link to="#work">Work</Link></li>
+                    <li className="nav-item"><Link to="#contact">Contact</Link></li>
                 </ul>
-            </nav>
-        </div>
+            </nav> */}
+            <div className={`menu ${activeClass}`}>
+                <button onClick={toggle} className='toggle-nav'>
+                    <i className="fa fa-close" />
+                </button>
+                <ul>
+                    <li className="nav-item"><Link to="#about">About</Link></li>
+                    <li className="nav-item"><Link to="#skills">Experiences</Link></li>
+                    <li className="nav-item"><Link to="#work">Works</Link></li>
+                    <li className="nav-item"><Link to="#contact">Contact</Link></li>
+                </ul>
+            </div>
+            <button onClick={toggle} className='toggle-nav'>
+                <i className="fa fa-bars" />
+            </button>
     </header>
-);
+    );
+};

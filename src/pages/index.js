@@ -6,7 +6,7 @@ import {
 import { 
     Home,
     About,
-    Skills,
+    Experiences,
     Work,
     Contact 
 } from '../sections';
@@ -15,12 +15,14 @@ export default function(){
     return(
         <React.Fragment>
             <Header />
-            <Home />
-            <About />
-            <Skills />
-            <Work />
-            <Contact />
-            <Footer />
+            <div className='main'>
+                <Home />
+                <About />
+                <Experiences />
+                <Work />
+                <Contact />
+                <Footer />
+            </div>
         </React.Fragment>
     );
 }
