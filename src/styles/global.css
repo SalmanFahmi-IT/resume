@@ -189,7 +189,11 @@ h1.section-title{
 .tablinks li{
     border-left: 4px solid #242d3c;
     padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
 }
 .tablinks li.active{
     border-left: 4px solid #27ceaa;
+    color: #27ceaa;
+    background-color: rgb(23, 42, 69);
 }
