@@ -26,7 +26,7 @@ export default function Header() {
                 </button>
                 <ul>
                     <li className="nav-item"><Link to="#about">About</Link></li>
-                    <li className="nav-item"><Link to="#skills">Experiences</Link></li>
+                    <li className="nav-item"><Link to="#experiences">Experiences</Link></li>
                     <li className="nav-item"><Link to="#work">Works</Link></li>
                     <li className="nav-item"><Link to="#contact">Contact</Link></li>
                 </ul>
