@@ -1,0 +1,50 @@
+[
+    {
+        "company": "Saham-IT",
+        "title": "Software engineer ReactJs/.NET",
+        "date": "NOV 2018-Present",
+        "Description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+        "method": "Agile scrum",
+        "skills": "ReactJs - Redux - Thunk - .NET web services - TFS"
+    },
+    {
+        "company": "Altados",
+        "title": "Software engineer ReactJs/.NET",
+        "date": "NOV 2018-Present",
+        "Description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+        "method": "Agile scrum",
+        "skills": "ReactJs - Redux - Thunk - .NET web services - TFS"
+    },
+    {
+        "company": "EBSMAROC",
+        "title": "Software engineer ReactJs/.NET",
+        "date": "NOV 2018-Present",
+        "Description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+        "method": "Agile scrum",
+        "skills": "ReactJs - Redux - Thunk - .NET web services - TFS"
+    },
+    {
+        "company": "Aerotechnic industries",
+        "title": "Software engineer ReactJs/.NET",
+        "date": "NOV 2018-Present",
+        "Description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+        "method": "Agile scrum",
+        "skills": "ReactJs - Redux - Thunk - .NET web services - TFS"
+    },
+    {
+        "company": "DMS",
+        "title": "Software engineer ReactJs/.NET",
+        "date": "NOV 2018-Present",
+        "Description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+        "method": "Agile scrum",
+        "skills": "ReactJs - Redux - Thunk - .NET web services - TFS"
+    },
+    {
+        "company": "Infos++",
+        "title": "Software engineer ReactJs/.NET",
+        "date": "NOV 2018-Present",
+        "Description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+        "method": "Agile scrum",
+        "skills": "ReactJs - Redux - Thunk - .NET web services - TFS"
+    }
+]

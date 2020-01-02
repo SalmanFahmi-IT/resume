@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Experiences(props){
     return(
-        <section className='Experiences' id='Experiences'>
+        <section className='experiences' id='experiences'>
             <div className='container'>
                 <h1 className='section-title'>Where I've Worked</h1>
                 <div className='row'>
