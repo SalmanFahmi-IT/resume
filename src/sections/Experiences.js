@@ -28,11 +28,17 @@ export default function Experiences(props){
                     <div className='col-8'>
                         <div className='tab-content'>
                            <div className='tabpane'>
-                                <h4>{ExperiencesData[currentTab].title} @ {ExperiencesData[currentTab].company}</h4>
-                                <h6>{ExperiencesData[currentTab].date}</h6>
-                                <p>{ExperiencesData[currentTab].description}</p>
-                                <p><strong>Method:</strong> {ExperiencesData[currentTab].method}</p>
-                                <p><strong>Skills:</strong> {ExperiencesData[currentTab].skills}</p>
+                                <h4>{ExperiencesData[currentTab].title} @ 
+                                    <span className='theme-color'>
+                                        {ExperiencesData[currentTab].company} 
+                                    </span>
+                                </h4> 
+                                <p className='theme-color'>
+                                    {ExperiencesData[currentTab].date}
+                                </p>
+                                <p className='desc'>{ExperiencesData[currentTab].description}</p>
+                                <h5>Skills :</h5> 
+                                <p>{ExperiencesData[currentTab].skills}</p>
                             </div>
                         </div>
                     </div>

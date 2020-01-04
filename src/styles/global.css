@@ -9,7 +9,13 @@
 *, ::before, ::after {
     box-sizing: inherit;
 }
-  
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 5px;
+    color: rgb(204, 214, 246);
+}
+.theme-color{
+    color: #27ceaa;
+}
 body{
     background: #0a192f;
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
@@ -202,4 +208,11 @@ h1.section-title{
     border-left: 4px solid #27ceaa;
     color: #27ceaa;
     background-color: rgb(23, 42, 69);
+}
+.tabpane h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+.tabpane .desc{
+    margin: 10px 0;
 }

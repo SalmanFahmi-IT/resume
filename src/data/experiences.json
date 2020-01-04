@@ -2,7 +2,7 @@
     {
         "Id": 1,
         "company": "Saham-IT",
-        "title": "Software engineer ReactJs/.NET",
+        "title": "Software engineer",
         "date": "NOV 2018-Present",
         "description": "Saham-IT Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
         "method": "Agile scrum",
@@ -11,7 +11,7 @@
     {
         "Id": 2,
         "company": "Altados",
-        "title": "Software engineer ReactJs/.NET",
+        "title": "Software engineer",
         "date": "NOV 2018-Present",
         "description": "Altados Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
         "method": "Agile scrum",
@@ -20,7 +20,7 @@
     {
         "Id": 3,
         "company": "EBSMAROC",
-        "title": "Software engineer ReactJs/.NET",
+        "title": "Software engineer",
         "date": "NOV 2018-Present",
         "description": "EBSMAROC Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
         "method": "Agile scrum",
@@ -29,7 +29,7 @@
     {
         "Id": 4,
         "company": "Aerotechnic industries",
-        "title": "Software engineer ReactJs/.NET",
+        "title": "Software engineer",
         "date": "NOV 2018-Present",
         "description": "Aerotechnic industries Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
         "method": "Agile scrum",
@@ -38,7 +38,7 @@
     {
         "Id": 5,
         "company": "DMS",
-        "title": "Software engineer ReactJs/.NET",
+        "title": "Software engineer",
         "date": "NOV 2018-Present",
         "description": "DMS Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
         "method": "Agile scrum",
@@ -47,7 +47,7 @@
     {
         "Id": 6,
         "company": "Infos++",
-        "title": "Software engineer ReactJs/.NET",
+        "title": "Software engineer",
         "date": "NOV 2018-Present",
         "description": "Infos++ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
         "method": "Agile scrum",
