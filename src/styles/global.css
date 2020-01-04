@@ -17,6 +17,7 @@ body{
     font-size: 20px;
     counter-reset: section;
 }
+
 li{
     list-style: none;
 }
@@ -36,10 +37,12 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
 p{
     font-size: 1rem;
     text-align: justify;
 }
+
 .nav-links{
     display: flex;
     justify-content: space-between;
