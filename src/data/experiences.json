@@ -1,49 +1,55 @@
 [
     {
+        "Id": 1,
         "company": "Saham-IT",
         "title": "Software engineer ReactJs/.NET",
         "date": "NOV 2018-Present",
-        "Description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+        "description": "Saham-IT Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
         "method": "Agile scrum",
         "skills": "ReactJs - Redux - Thunk - .NET web services - TFS"
     },
     {
+        "Id": 2,
         "company": "Altados",
         "title": "Software engineer ReactJs/.NET",
         "date": "NOV 2018-Present",
-        "Description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+        "description": "Altados Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
         "method": "Agile scrum",
         "skills": "ReactJs - Redux - Thunk - .NET web services - TFS"
     },
     {
+        "Id": 3,
         "company": "EBSMAROC",
         "title": "Software engineer ReactJs/.NET",
         "date": "NOV 2018-Present",
-        "Description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+        "description": "EBSMAROC Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
         "method": "Agile scrum",
         "skills": "ReactJs - Redux - Thunk - .NET web services - TFS"
     },
     {
+        "Id": 4,
         "company": "Aerotechnic industries",
         "title": "Software engineer ReactJs/.NET",
         "date": "NOV 2018-Present",
-        "Description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+        "description": "Aerotechnic industries Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
         "method": "Agile scrum",
         "skills": "ReactJs - Redux - Thunk - .NET web services - TFS"
     },
     {
+        "Id": 5,
         "company": "DMS",
         "title": "Software engineer ReactJs/.NET",
         "date": "NOV 2018-Present",
-        "Description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+        "description": "DMS Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
         "method": "Agile scrum",
         "skills": "ReactJs - Redux - Thunk - .NET web services - TFS"
     },
     {
+        "Id": 6,
         "company": "Infos++",
         "title": "Software engineer ReactJs/.NET",
         "date": "NOV 2018-Present",
-        "Description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+        "description": "Infos++ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
         "method": "Agile scrum",
         "skills": "ReactJs - Redux - Thunk - .NET web services - TFS"
     }
