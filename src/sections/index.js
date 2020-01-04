@@ -1,13 +1,13 @@
-import Cover from './Cover';
+import Home from './Home';
 import About from './About';
-import Skills from './Skills';
+import Experiences from './Experiences';
 import Work from './Work';
 import Contact from './Contact';
 
 export {
-    Cover,
+    Home,
     About,
-    Skills,
+    Experiences,
     Work,
     Contact
 };
