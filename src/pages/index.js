@@ -4,9 +4,9 @@ import {
     Footer
 } from '../components';
 import { 
-    Cover,
+    Home,
     About,
-    Skills,
+    Experiences,
     Work,
     Contact 
 } from '../sections';
@@ -15,12 +15,14 @@ export default function(){
     return(
         <React.Fragment>
             <Header />
-            <Cover />
-            <About />
-            <Skills />
-            <Work />
-            <Contact />
-            <Footer />
+            <div className='main'>
+                <Home />
+                <About />
+                <Experiences />
+                <Work />
+                <Contact />
+                <Footer />
+            </div>
         </React.Fragment>
     );
 }
