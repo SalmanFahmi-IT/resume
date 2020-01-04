@@ -11,7 +11,7 @@ export default function Experiences(props){
                 <h1 className='section-title'>Where I've Worked</h1>
                 <div className='row'>
                     <div className='col-4'>
-                        <ul className='tablinks'>
+                        <div className='tablinks'>
                             {
                                 ExperiencesData.map((exp, index) => {
                                     return <TabLink 
@@ -23,16 +23,25 @@ export default function Experiences(props){
                                     />
                                 })
                             }
-                        </ul>
+                        </div>
                     </div>
                     <div className='col-8'>
                         <div className='tab-content'>
                            <div className='tabpane'>
-                                <h4>{ExperiencesData[currentTab].title} @ {ExperiencesData[currentTab].company}</h4>
-                                <h6>{ExperiencesData[currentTab].date}</h6>
-                                <p>{ExperiencesData[currentTab].description}</p>
-                                <p><strong>Method:</strong> {ExperiencesData[currentTab].method}</p>
-                                <p><strong>Skills:</strong> {ExperiencesData[currentTab].skills}</p>
+                                <h4>{ExperiencesData[currentTab].title} @ 
+                                    <span className='theme-color'>
+                                        {ExperiencesData[currentTab].company} 
+                                    </span>
+                                </h4> 
+                                <p className='theme-color lighter'>
+                                    {ExperiencesData[currentTab].date}
+                                </p>
+                                <div className='desc'>
+                                    <h5>Description :</h5>
+                                    <p>{ExperiencesData[currentTab].description}</p>
+                                </div>
+                                <h5>Skills :</h5>
+                                <p>{ExperiencesData[currentTab].skills}</p>
                             </div>
                         </div>
                     </div>
