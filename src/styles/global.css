@@ -186,11 +186,14 @@ h1.section-title{
     list-style: none;
     margin: 11px 10px;
 }
-.tablinks li{
+.tablinks li {
     border-left: 4px solid #242d3c;
     padding: 5px 10px;
-    margin: 0 10px;
+    margin: 0 32px 0 0;
     cursor: pointer;
+    transition: 1s;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 17px;
 }
 .tablinks li.active{
     border-left: 4px solid #27ceaa;
