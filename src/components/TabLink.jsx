@@ -2,14 +2,14 @@ import React from "react"
 
 export default function TabLink({ index, isSelected, setCurrentTab, text}){
     return(
-        <li 
+        <button 
             onClick={() => {
                 setCurrentTab(index)
                 console.log('index', index)
             }}
-            className={isSelected ? 'active' : ''}
+            className={isSelected ? 'active' : 'inactive'}
         >
             {text}
-        </li>
+        </button>
     );
 }

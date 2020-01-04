@@ -11,7 +11,7 @@ export default function Experiences(props){
                 <h1 className='section-title'>Where I've Worked</h1>
                 <div className='row'>
                     <div className='col-4'>
-                        <ul className='tablinks'>
+                        <div className='tablinks'>
                             {
                                 ExperiencesData.map((exp, index) => {
                                     return <TabLink 
@@ -23,7 +23,7 @@ export default function Experiences(props){
                                     />
                                 })
                             }
-                        </ul>
+                        </div>
                     </div>
                     <div className='col-8'>
                         <div className='tab-content'>
@@ -33,11 +33,14 @@ export default function Experiences(props){
                                         {ExperiencesData[currentTab].company} 
                                     </span>
                                 </h4> 
-                                <p className='theme-color'>
+                                <p className='theme-color lighter'>
                                     {ExperiencesData[currentTab].date}
                                 </p>
-                                <p className='desc'>{ExperiencesData[currentTab].description}</p>
-                                <h5>Skills :</h5> 
+                                <div className='desc'>
+                                    <h5>Description :</h5>
+                                    <p>{ExperiencesData[currentTab].description}</p>
+                                </div>
+                                <h5>Skills :</h5>
                                 <p>{ExperiencesData[currentTab].skills}</p>
                             </div>
                         </div>
