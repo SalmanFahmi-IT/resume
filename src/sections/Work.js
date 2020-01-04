@@ -12,3 +12,5 @@ export default function Work(props){
         </section>
     );
 }
+
+export default () => <div>Work!</div>
