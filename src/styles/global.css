@@ -278,3 +278,12 @@ input, textarea{
     margin: 0.2rem 0;
     color: #27ceaa;
 }
+
+@media only screen and (max-width: 960px) {
+    .toggle-nav{
+        display: block !important;
+    }
+    .navbar{
+        display: none !important;
+    }
+}
