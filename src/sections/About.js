@@ -8,10 +8,17 @@ export default function About(props){
                 <Fade left>
                 <h1 className='section-title'>About</h1>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-8">
                         <p>
-                        Hello! I'm Salman, a software engineer based in Morocco,Casablanca, MA who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.
+                        Hello! I'm Salman, a software engineer based in Morocco,Casablanca, MA who enjoys building things that live on the internet. 
+                        </p>
+                        <p>
+                        I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.
+                        </p>
+                        <p>
                         Shortly after graduating from Northeastern University, I joined the engineering team at Upstatement where I work on a wide variety of interesting and meaningful projects on a daily basis.
+                        </p>
+                        <p>
                         Here are a few technologies I've been working with recently:
                         </p>
                         <ul className="about-skills">
@@ -29,8 +36,8 @@ export default function About(props){
                             <li>Gatsby</li>
                         </ul>
                     </div>
-                    <div className="col-6">
-                        <img src="/me.jpg" alt='Salman' className="img-profil"/>
+                    <div className="col-4">
+                        <img src="/me.jpg" alt='Salman' className="screenshot"/>
                     </div>
                 </div>
                 </Fade>
